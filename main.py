@@ -76,7 +76,7 @@ def show_login():
     username = st.text_input("Benutzername:", key="login_username")
     password = st.text_input("Passwort:", type="password", key="login_password")
     
-    st.markdown("Passwort vergessen? Bitte support kontaktieren.<br>Tel.: 01234567 - Email: support@sg-psychiatrie.ch", unsafe_allow_html=True)
+    st.markdown("Passwort vergessen? Bitte support kontaktieren.<br>Tel.: +41 78 313 6920 - Email: zamzam2204@yahoo.de", unsafe_allow_html=True)
 
     col1, col2 = st.columns(2)
     with col1:
